@@ -14,3 +14,7 @@ let playMusicMessage = "Let's start playing music!";
 // insert your code here
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
+
+for (let counter = 0; counter < 10; counter++) {
+    console.log (<h4>"You need more albums!"</h4>);
+}
