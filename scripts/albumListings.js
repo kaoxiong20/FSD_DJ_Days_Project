@@ -23,7 +23,7 @@ for ( let i = 0; i < albums.length; i++) {
 }
 
 if ( albums.length < 10 ) {
-    document.querySelector('header').insertAdjacentHTML('beforeend', html);
+    document.querySelector('header').insertAdjacentHTML('beforeend', "You need more albums!");
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);

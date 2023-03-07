@@ -28,7 +28,12 @@ let albums = [
   },
 
   { name: 'Beach',
-    artist: 'Three Black',
+    artist: 'Da Toddler',
     genre: 'K-pop'
+  },
+
+  { name: 'Vacay',
+    artist: '3Pac',
+    genre: 'Rap'
   }
 ];
