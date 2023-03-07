@@ -13,8 +13,17 @@ let playMusicMessage = "Let's start playing music!";
 
 // insert your code here
 
-document.querySelector('main').insertAdjacentHTML('beforeend', html);
-
-for (let counter = 0; counter < 10; counter++) {
-    console.log (<h4>"You need more albums!"</h4>);
+for ( let i = 0; i < albums.length; i++) {
+    html += `
+    <h2>${albums[i].name}</h2>
+        <h3>${albums[i].artist}</h3>
+        <p>${albums[i].genre}</p>
+`;
+    console.log(`Number of albums: ${albums.length}`);
 }
+
+if ( albums.length < 10 ) {
+    document.querySelector('header').insertAdjacentHTML('beforeend', html);
+}
+
+    document.querySelector('main').insertAdjacentHTML('beforeend', html);

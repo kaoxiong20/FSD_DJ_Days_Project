@@ -6,7 +6,7 @@
   Optionally, you can also add an "artwork" property with an image of the album cover.
 */
 
-const = albums [
+let albums = [
   { name: 'Heaven',
     artist: 'John Red',
     genre: 'Pop'
@@ -31,6 +31,4 @@ const = albums [
     artist: 'Three Black',
     genre: 'K-pop'
   }
-]
-
-document.body.addEventListener ();
+];
