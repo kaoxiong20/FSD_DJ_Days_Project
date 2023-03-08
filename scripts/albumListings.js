@@ -18,6 +18,7 @@ for ( let i = 0; i < albums.length; i++) {
     <h2>${albums[i].name}</h2>
         <h3>${albums[i].artist}</h3>
         <p>${albums[i].genre}</p>
+        <img src="${albums[i].photo}"}>
 `;
     console.log(`Number of albums: ${albums.length}`);
 }
