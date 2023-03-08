@@ -23,11 +23,11 @@ for ( let i = 0; i < albums.length; i++) {
 }
 
 if ( albums.length < 10 ) {
-    alert = "You need more albums!";
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${moreAlbumsMessage}</h4>`);
 }
 
-else ( albums.length > 10 ); {
-    alert = "Let's start playing music!";
+else {
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMesssage}</h4>`);
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);
