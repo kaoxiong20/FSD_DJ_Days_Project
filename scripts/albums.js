@@ -41,5 +41,29 @@ let albums = [
     artist: '3Pac',
     genre: 'Rap',
     artwork: 'images/pexels-muffin-creatives-1646311.jpg'
+  },
+
+  { name: 'Lala Land',
+    artist: 'Blue Star',
+    genre: 'Pop',
+    artwork: ''
+  },
+
+  { name: 'Dream',
+    artist: 'Purple Clouds',
+    genre: 'Hip Hop',
+    artwork: ''
+  },
+
+  { name: 'Play',
+    artist: 'Player',
+    genre: 'Blues',
+    artwork: ''
+  },
+
+  { name: 'Happy',
+    artist: 'Brown Rose',
+    genre: 'Country',
+    artwork: ''
   }
 ];
