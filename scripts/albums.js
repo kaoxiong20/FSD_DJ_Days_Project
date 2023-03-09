@@ -46,24 +46,24 @@ let albums = [
   { name: 'Lala Land',
     artist: 'Blue Star',
     genre: 'Pop',
-    artwork: ''
+    artwork: 'images/pexels-olof-nyman-2170729.jpg'
   },
 
   { name: 'Dream',
     artist: 'Purple Clouds',
     genre: 'Hip Hop',
-    artwork: ''
+    artwork: 'images/pexels-dids-2742812.jpg'
   },
 
   { name: 'Play',
     artist: 'Player',
     genre: 'Blues',
-    artwork: ''
+    artwork: 'images/pexels-leah-kelley-3935703.jpg'
   },
 
   { name: 'Happy',
     artist: 'Brown Rose',
     genre: 'Country',
-    artwork: ''
+    artwork: 'images/pexels-mike-1181776.jpg'
   }
 ];
