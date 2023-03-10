@@ -28,7 +28,7 @@ if ( albums.length < 10 ) {
 }
 
 else {
-    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMesssage}</h4>`);
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`);
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);
