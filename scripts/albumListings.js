@@ -31,13 +31,12 @@ else {
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`);
 }
 
-    document.querySelector('main').insertAdjacentHTML('beforeend', html);
+let chill = true;
+let beach = true;
+let dream = true;
 
-
-let favoriteAlbums = "Dream", "Chill", "Lala Land";
-
-
-if ( albums.favorite ) {
-    document.querySelector('header').insertAdjacentHTML('beforeend', `<p>${favoriteAlbums}</p>`);
+if ( chill && beach && dream ) {
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<p>Top 3 Favorites</p>`);
 }
-    
+
+document.querySelector('main').insertAdjacentHTML('beforeend', html);

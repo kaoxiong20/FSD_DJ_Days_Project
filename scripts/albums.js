@@ -35,6 +35,7 @@ let albums = [
     artist: 'Da Toddler',
     genre: 'K-pop',
     artwork: 'images/pexels-chedi-tanabene-1710795.jpg'
+    
   },
 
   { name: 'Vacay',
