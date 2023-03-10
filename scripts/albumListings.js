@@ -18,7 +18,7 @@ for ( let i = 0; i < albums.length; i++) {
     <h2>${albums[i].name}</h2>
     <h3>${albums[i].artist}</h3>
     <p>${albums[i].genre}</p>
-    <img src="${albums[i].artwork}" alt="${albumbs[i].name} Cover"}>
+    <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
 `;
     console.log(`Number of albums: ${albums.length}`);
 }
@@ -32,10 +32,3 @@ else {
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);
-
-let favoriteAlbum = false;
-if (favoriteAlbum) {
-    console.log("Top 3 Favorites");
-} else {
-    console.log("Not a top 3 favorite");
-}
