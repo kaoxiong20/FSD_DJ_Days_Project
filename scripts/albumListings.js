@@ -32,3 +32,10 @@ else {
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);
+
+let favoriteAlbum = false;
+if (favoriteAlbum) {
+    console.log("Top 3 Favorites");
+} else {
+    console.log("Not a top 3 favorite");
+}
