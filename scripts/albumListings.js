@@ -32,3 +32,12 @@ else {
 }
 
     document.querySelector('main').insertAdjacentHTML('beforeend', html);
+
+
+let favoriteAlbums = "Dream", "Chill", "Lala Land";
+
+
+if ( albums.favorite ) {
+    document.querySelector('header').insertAdjacentHTML('beforeend', `<p>${favoriteAlbums}</p>`);
+}
+    
