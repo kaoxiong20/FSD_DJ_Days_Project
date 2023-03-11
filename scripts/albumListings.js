@@ -10,6 +10,7 @@
 let html = '';
 let moreAlbumsMessage = "You need more albums!";
 let playMusicMessage = "Let's start playing music!";
+let topThreeMessage = "Top 3 Favorites";
 
 // insert your code here
 
@@ -21,6 +22,13 @@ for ( let i = 0; i < albums.length; i++) {
     <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
 `;
     console.log(`Number of albums: ${albums.length}`);
+
+let topThree = albums[i].topThree;
+if ( topThree === true ) {
+    html += `
+    <p>${topThreeMessage}</p>
+        `;
+    };
 }
 
 if ( albums.length < 10 ) {
@@ -29,14 +37,6 @@ if ( albums.length < 10 ) {
 
 else {
     document.querySelector('header').insertAdjacentHTML('beforeend', `<h4>${playMusicMessage}</h4>`);
-}
-
-let chill = true;
-let beach = true;
-let dream = true;
-
-if ( chill && beach && dream ) {
-    document.querySelector('header').insertAdjacentHTML('beforeend', `<p>Top 3 Favorites</p>`);
 }
 
 document.querySelector('main').insertAdjacentHTML('beforeend', html);
