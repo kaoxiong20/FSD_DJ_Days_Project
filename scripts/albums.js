@@ -35,7 +35,6 @@ let albums = [
     artist: 'Da Toddler',
     genre: 'K-pop',
     artwork: 'images/pexels-chedi-tanabene-1710795.jpg'
-    
   },
 
   { name: 'Vacay',
@@ -68,3 +67,23 @@ let albums = [
     artwork: 'images/pexels-mike-1181776.jpg'
   }
 ];
+
+let favoriteAlbums = [
+  { name: 'Chill',
+    artist: 'Logan Green',
+    genre: 'Hip Hop',
+    artwork: 'images/pexels-lisa-fotios-2090881.jpg'
+  },
+
+{ name: 'Dream',
+  artist: 'Purple Clouds',
+  genre: 'Hip Hop',
+  artwork: 'images/pexels-dids-2742812.jpg'
+},
+
+{ name: 'Beach',
+artist: 'Da Toddler',
+genre: 'K-pop',
+artwork: 'images/pexels-chedi-tanabene-1710795.jpg'
+}
+]
