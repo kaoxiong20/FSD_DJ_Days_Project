@@ -16,9 +16,12 @@ let topThreeMessage = "Top 3 Favorites";
 
 for ( let i = 0; i < albums.length; i++) {
     html += `
-    <h2>${albums[i].name}</h2>
+    <div class="card"><h2 class="card-title">${albums[i].name}</h2>
+
     <h3>${albums[i].artist}</h3>
+
     <p>${albums[i].genre}</p>
+
     <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
 `;
     console.log(`Number of albums: ${albums.length}`);
