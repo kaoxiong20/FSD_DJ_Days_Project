@@ -22,6 +22,7 @@
   
   h2, h3, h4, p{
     font-family: 'Ubuntu', sans-serif;
+    outline: 2px dotted green;
   }
   
   h2 {
@@ -63,4 +64,3 @@
     border: solid rgb(125, 11, 156) 2px;
     margin-top: 50px;
   }
-  
