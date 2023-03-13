@@ -20,7 +20,7 @@ for ( let i = 0; i < albums.length; i++) {
 
     <h3>${albums[i].artist}</h3>
 
-    <p>${albums[i].genre}</p>
+    <p class="genre">${albums[i].genre}</p>
 
     <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
 `;

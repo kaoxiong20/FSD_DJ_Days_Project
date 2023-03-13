@@ -22,7 +22,6 @@
   
   h2, h3, h4, p{
     font-family: 'Ubuntu', sans-serif;
-    outline: 2px dotted green;
   }
   
   h2 {
@@ -39,6 +38,7 @@
     color: #e88dff;
     font-size: 24px;
     margin: 0 0 .5rem;
+    outline: 2px dotted blue;
   }
 
   h4 {
@@ -51,6 +51,7 @@
   p {
     font-size: 1.15em;
     margin: 0.5em 0 1em;
+    font-style: italic;
   }
   
   @media screen and (min-width: 700px) {
@@ -63,4 +64,8 @@
     text-align: left;
     border: solid rgb(125, 11, 156) 2px;
     margin-top: 50px;
+  }
+
+  .genre {
+    text-decoration: underline;
   }
