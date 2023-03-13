@@ -17,20 +17,17 @@ let topThreeMessage = "Top 3 Favorites";
 for ( let i = 0; i < albums.length; i++) {
     html += `
     <div class="card"><h2 class="card-title">${albums[i].name}</h2>
-
     <h3>${albums[i].artist}</h3>
-
     <p class="genre">${albums[i].genre}</p>
-
-    <img src="${albums[i].artwork}" alt="${albums[i].name} Cover">
+    <img class="album_cover" src="${albums[i].artwork}" alt="${albums[i].name} Cover">
 `;
     console.log(`Number of albums: ${albums.length}`);
 
 let topThree = albums[i].topThree;
-if ( topThree === true ) {
+if ( topThree ) {
     html += `
-    <div class="topThree">${topThreeMessage}</div>
-        `;
+    <p id="topThree-styling">This is a Top 3 Favorite!</p>
+`;
     };
 }
 

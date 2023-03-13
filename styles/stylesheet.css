@@ -27,7 +27,7 @@
   h2 {
     font-size: 35px;  
     margin: 0 0 .5rem;
-    color: #d634ff;
+    color: #a30e0e;
   }
   
   h2:not(:first-of-type ) {
@@ -35,10 +35,9 @@
   }
   
   h3 {
-    color: #e88dff;
+    color: #a56a6a;
     font-size: 24px;
     margin: 0 0 .5rem;
-    outline: 2px dotted blue;
   }
 
   h4 {
@@ -51,7 +50,6 @@
   p {
     font-size: 1.15em;
     margin: 0.5em 0 1em;
-    font-style: italic;
   }
   
   @media screen and (min-width: 700px) {
@@ -62,16 +60,23 @@
 
   .card-title {
     text-align: left;
-    border: solid rgb(125, 11, 156) 2px;
+    border: solid #ffffff 2px;
     margin-top: 50px;
+    text-transform: uppercase;
   }
 
   .genre {
     text-decoration: underline;
+    font-size: 18px;
   }
 
-  .topThree {
+  .topThree-styling {
     padding: 10px;
-    font-family: 'Courier New', Courier, monospace;
-    color: #f30000;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #f40000;
+    font-style: normal;
+  }
+
+  .album_cover{
+    width: 180px;
   }
