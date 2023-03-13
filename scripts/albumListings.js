@@ -29,7 +29,7 @@ for ( let i = 0; i < albums.length; i++) {
 let topThree = albums[i].topThree;
 if ( topThree === true ) {
     html += `
-    <p>${topThreeMessage}</p>
+    <div class="topThree">${topThreeMessage}</div>
         `;
     };
 }

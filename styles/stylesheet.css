@@ -69,3 +69,9 @@
   .genre {
     text-decoration: underline;
   }
+
+  .topThree {
+    padding: 10px;
+    font-family: 'Courier New', Courier, monospace;
+    color: #f30000;
+  }
