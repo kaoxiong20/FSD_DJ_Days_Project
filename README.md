@@ -33,6 +33,10 @@ Optionally, you can also add an "artwork" property with an image of the album co
 - You already have the variable *"html"* that can be used to create the album listings for the DOM, as well as the code to produce whatever content the variable *"html"* has
 - The *<h4>* message variables have also been included
 
+# Stretch Goal:
+- Add logic to your project to denote whether or not an album in *albums.js* is one of your top three favorite albums
+- You will have to add to both *albums.js* and *albumListings.js* to make this work
+
 ## Getting Started
 Make sure to fork this project into your own Github account, and clone it down to start working on it! 
 
